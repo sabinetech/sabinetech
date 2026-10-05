@@ -1,36 +1,38 @@
-# Hi there, I'm Sabine Wombong 👋
+# 🎗️ Breast Cancer Assistant (MLH Fellowship Code Sample)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabine-wombong)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:wombongsabine@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Douala%2C%20Cameroon%20(GMT%2B1)-blue)](https://en.wikipedia.org/wiki/Douala)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB)](https://react.dev/)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Software Engineering Graduate based in Douala, Cameroon 🎓. I build scalable web applications, robust RESTful APIs, and intelligent data-driven software solutions.
+> **Live Demo:** [https://breastcancerssistant.example.com](https://breastcancerssistant.example.com) *(Optional live deployment link)*
 
-🚀 About Me
-📍 Location: Douala, Cameroon (GMT+1 / WAT) — Available for full-time remote roles with flexible team overlap
+A full-stack, machine learning-assisted diagnostic application that evaluates clinical features to assist healthcare professionals in early breast cancer risk assessment.
 
-🛠️ Core Focus: Full-Stack Web Engineering, API Development & Intelligent Systems
+---
 
-🎯 Current Goal: Contributing to high-impact software engineering teams globally
+## 📌 Problem & Motivation
 
-💬 Ask me about: Python, JavaScript, React, FastAPI, and Backend Architecture
+Early detection significantly increases successful treatment outcomes for breast cancer. However, diagnostic tools often lack clean, scalable developer APIs and intuitive web interfaces. 
 
-🧰 Tech Stack & Toolkit
-Languages:
+I built this project to bridge machine learning model deployment with clean backend API design and responsive frontend interfaces, demonstrating how clinical classification models can be exposed safely over production REST endpoints.
 
-Frameworks & Libraries:
+---
 
-Tools & Infrastructure:
+## ✨ Key Features
 
-🌟 Featured Repositories
-🎗️ Breast Cancer Assistant
+- **Diagnostic API:** Exposes clean REST endpoints for model inference using FastAPI.
+- **Interactive UI:** A React interface allowing medical staff to input feature vectors and receive instant risk probabilities.
+- **Model Pipeline:** Built with `scikit-learn`, featuring feature normalization and automated model loading.
+- **Robust Error Handling:** Validates incoming payloads using Pydantic schemas to prevent malformed data inputs.
+- **Automated Testing:** Suite of unit and integration tests for API endpoints and data processing modules.
 
-An intelligent diagnostic tool that uses machine learning models and clean API architecture to evaluate clinical data for early breast cancer detection.
+---
 
-Python • FastAPI • React • Scikit-Learn • Docker
+## 🧰 Tech Stack & Architecture
 
-📊 GitHub Activity
-📫 Contact & Socials
-📧 Email: wombongsabine@gmail.com
-
-💼 LinkedIn: Sabine Wombong
+- **Backend:** Python 3.11, FastAPI, Pydantic, Uvicorn
+- **Frontend:** React.js, Tailwind CSS
+- **Machine Learning:** Scikit-Learn, Pandas, NumPy
+- **DevOps & Testing:** Docker, Pytest, GitHub Actions (CI)
